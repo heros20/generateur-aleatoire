@@ -1,6 +1,26 @@
 
-var adjective = ["Excited", "Anxious", "Overweight", "Demonic", "Jumpy", "Misunderstood", "Squashed", "Gargantuan","Broad", "Crooked", "Curved", "Deep", "Even","Excited", "Anxious", "Overweight", "Demonic", "Jumpy", "Misunderstood", "Squashed", "Gargantuan","Broad", "Crooked", "Curved", "Deep", "Even", "Flat", "Hilly", "Jagged", "Round", "Shallow", "Square", "Steep", "Straight", "Thick", "Thin", "Cooing", "Deafening", "Faint", "Harsh", "High-pitched", "Hissing", "Hushed", "Husky", "Loud", "Melodic", "Moaning", "Mute", "Noisy", "Purring", "Quiet", "Raspy", "Screeching", "Shrill", "Silent", "Soft", "Squeaky", "Squealing", "Thundering", "Voiceless", "Whispering"] 
-var object = ["Taco", "Operating System", "Sphere", "Watermelon", "Cheeseburger", "Apple Pie", "Spider", "Dragon", "Remote Control", "Soda", "Barbie Doll", "Watch", "Purple Pen", "Dollar Bill", "Stuffed Animal", "Hair Clip", "Sunglasses", "T-shirt", "Purse", "Towel", "Hat", "Camera", "Hand Sanitizer Bottle", "Photo", "Dog Bone", "Hair Brush", "Birthday Card"]
+var adjective = ["Raisel", "Iô", "Aylin", 
+"Demonic", "Evette", "Tasnim", "Eirlys", 
+"Melantha","Marzanna", "Takara", "Akira", "Deep", 
+"Even","Kaoru", "Namika", "Eira", "Sorin", "Arcane", "Misun", 
+"Squashed", "Curved", "Hilly", 
+"Jagged", "Mayumi", "Shallow", "Liling", "Steep", "Straight", 
+"Thick", "Thin", 
+"Deafening", "Faint", "Harsh", "Laerke", "Cerridwen", 
+"Hushed", "Husky", "Loud", 
+"Xy", 
+"Xylia", "Mute", "Môr", "Quiet", "Raspy", 
+"Médée", "Shrill", "Silent", "Jona", 
+"Asdis", "Laleh", "Skadi", "Jord", 
+"Devi"] 
+
+
+var object = ["Angegné", "Firefury", "Stoutstrike", "Mossstrike", 
+"Goresnow", "Lightshield", "Dragonflare", "Dragon",
+ "Frostore", "Fourwhisk", "Farsinger", 
+"Fogwood", "Flameglow", "Pyreriver", "Abadras", 
+"HairClip", "SunEater", "flescht", "Truthhell", 
+"Nosepelt"]
 // var list;
 
 function generator() {
