@@ -28,3 +28,7 @@ var surnames = ["Angegné", "Firefury", "Stoutstrike", "Mossstrike",
 function generator() {
  document.getElementById("name").innerHTML = names[Math.floor(Math.random() * names.length)] + " " + surnames[Math.floor(Math.random() * surnames.length)];;;
 }
+
+
+
+

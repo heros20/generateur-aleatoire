@@ -11,29 +11,53 @@
     <title>Générateur d'aléatoire</title>
 </head>
 <body>
-    <div class="container">
-        <div class="container-fluid">
-            <h1 class="box light-blue-box rokkitt text-center">
-            Générateur de nom aléatoire
-            </h1>
-            <div class="btn-div">
-                <button onclick="generator()" class="custom-btn btn-14">Go!</button>
-                <!-- <button onclick="generator()" class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>             -->
-            </div>
-            <div class="container">
-                <div class="cards">
-                    <div class="card three">
-                        <div class="details">
-                            <div class="content">
-                                <h2 onclick="copyToClipboard('#name')" class="jumbotron text-center rokkitt" id="name"></h2>
+    <div class="bigContainer">
+        <div class="container">
+            <div class="container-fluid">
+                <h1 class="box light-blue-box rokkitt text-center">
+                Générateur de nom aléatoire
+                </h1>
+                <div class="btn-div">
+                    <button onclick="generator()" class="custom-btn btn-14">Go!</button>
+                </div>
+                <div class="container">
+                    <div class="cards">
+                        <div class="card three">
+                            <div class="details">
+                                <div class="content">
+                                    <h2 onclick="copyToClipboard('#name')" class="jumbotron text-center rokkitt" id="name"></h2>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-<script src="main.js"></script>
-<script src="copy.js"></script>
+        <div class="container">
+            <div class="container-fluid">
+                <h1 class="box light-blue-box rokkitt text-center">
+                Générateur de choix
+                </h1>
+                <div class="btn-div">
+                    <button onclick="generator2()" class="custom-btn btn-14">Go!</button>
+                </div>
+                <div class="container">
+                    <div class="cards">
+                        <div class="card three">
+                            <div class="details">
+                                <div class="content2">
+                                    <h2 class="jumbotron text-center rokkitt" id="choice"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    
+<script src="js/random-name.js"></script>
+<script src="js/copy.js"></script>
+<script src="js/choice.js"></script>
 </body>
 </html>
