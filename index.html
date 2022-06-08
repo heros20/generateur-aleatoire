@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <title>Générateur d'aléatoire</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-fluid">
+            <h1 class="box light-blue-box rokkitt text-center">
+            Générateur de nom aléatoire
+            </h1>
+            <div class="btn-div">
+                <button onclick="generator()" class="custom-btn btn-14">Go!</button>
+                <!-- <button onclick="generator()" class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>             -->
+            </div>
+            <div class="container">
+                <div class="cards">
+                    <div class="card three">
+                        <div class="details">
+                            <div class="content">
+                                <h2 onclick="copyToClipboard('#name')" class="jumbotron text-center rokkitt" id="name"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="main.js"></script>
+<script src="copy.js"></script>
+</body>
+</html>

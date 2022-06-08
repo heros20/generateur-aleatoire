@@ -1,0 +1,150 @@
+body{
+  font-family: Lato, sans-serif;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.jumbotron{
+  text-align: center;
+}
+/* CSS BUTTON */
+button{
+  display: block;
+  margin: auto;
+  position: relative;
+  padding : 25px 80px;
+  outline: none;
+  border:none;
+  cursor: pointer;
+  font-family: sans-serif;
+  background: rgb(201, 193, 202);
+  border-radius: 20px;
+  box-shadow: 5px 6px rgb(187, 164, 182);
+  font-weight: bold;
+  -webkit-transition:  0.4s;
+}
+
+button:hover{
+  box-shadow: -5px -6px rgb(219, 200, 219);
+  transition: all 0.4s;
+  top : 2px;
+}
+
+button:active{
+  box-shadow: 0px 0px rgb(197, 221, 204)04;
+  top:6px;
+}
+
+
+/* bacground CSS */
+
+body {
+  height:100vh;
+  background-color:#e5e5e5;
+  background-image: repeating-linear-gradient(0deg, #bcbcbc 0, #bcbcbc 1px, transparent 1px, transparent 200px), repeating-linear-gradient(90deg, #bcbcbc 0, #bcbcbc 1px, transparent 1px, transparent 200px);
+}
+body span:nth-child(1) { width:10em; height:10em; animation: pump 5s ease-in-out infinite; animation-delay:0.1s; }
+body span:nth-child(2) { width:8em; height:8em; animation: pump 5s ease-in-out infinite; animation-delay:0.3s;}
+body span:nth-child(3) { width:6em; height:6em; animation: pump 5s ease-in-out infinite; animation-delay:0.4s;}
+body span:nth-child(4) { width:4em; height:4em; animation: pump 5s ease-in-out infinite; animation-delay:0.5s;}
+@keyframes pump {
+  0% { box-shadow: 0.1em 0.1em 2em #00000030, -0.1em -0.1em 2em #ffffff90, inset 0.1em 0.1em 2em #00000030, inset -0.1em -0.1em 2em #ffffff90; }
+  25% { box-shadow: 2em 2em 2em #00000030, -2em -2em 2em #ffffff90, inset 2em 2em 2em #00000030, inset -2em -2em 2em #ffffff90; }
+  50% { box-shadow: 1.5em 1.5em 2em #00000030, -1.5em -1.5em 2em #ffffff90, inset 1.5em 1.5em 2em #00000030, inset -1.5em -1.5em 2em #ffffff90; }
+    75% { box-shadow: 2em 2em 2em #00000030, -2em -2em 2em #ffffff90, inset 2em 2em 2em #00000030, inset -2em -2em 2em #ffffff90; }
+  100% { box-shadow: 0.1em 0.1em 2em #00000030, -0.1em -0.1em 2em #ffffff90, inset 0.1em 0.1em 2em #00000030, inset -0.1em -0.1em 2em #ffffff90; }
+}
+/* Card CSS */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+
+.container {
+	min-height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+}
+
+.cards {
+	display: flex;
+	gap: 1rem;
+}
+
+.card {
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	height: 22rem;
+	width: 16rem;
+	border-radius: 1rem;
+	box-shadow: 0 0 2px #ffffff80;
+}
+.card.three {
+	background-image: url("https://images.unsplash.com/photo-1633536237825-577dbc91967f");
+}
+
+.details {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #ffffff10;
+	border-top: 1px solid #ffffff30;
+	border-radius: 1rem;
+	-webkit-backdrop-filter: blur(0.75rem);
+	backdrop-filter: blur(0.75rem);
+	transition: ease 0.5s;
+  cursor: pointer;
+}
+
+.details:hover {
+	padding-bottom: 0.5rem;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 2rem 1rem;
+}
+
+.content h2 {
+	color: #ffffffdd;
+	font-size: 1.25rem;
+	margin-bottom: 0.5rem;
+}
+.content:hover:before {
+  content:  "*Click pour copier* ";
+}
+.content p {
+	color: #ffffffaa;
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+
+.content a {
+	background-image: linear-gradient(
+		90deg,
+		#ffffffaa 0%,
+		#ffffffee 50%,
+		#ffffffaa 100%
+	);
+	background-size: 200%;
+	font-size: 0.8rem;
+	font-weight: 700;
+	letter-spacing: 0.1rem;
+	color: #000000bb;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0.75rem 4rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 0.5rem 10px -3px #00000025;
+	transition: 0.5s;
+}
+
+.content a:hover {
+	background-position: right;
+}
