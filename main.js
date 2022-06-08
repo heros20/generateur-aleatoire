@@ -1,5 +1,5 @@
 
-var adjective = ["Raisel", "Iô", "Aylin", 
+var names = ["Raisel", "Iô", "Aylin", 
 "Demonic", "Evette", "Tasnim", "Eirlys", 
 "Melantha","Marzanna", "Takara", "Akira", "Deep", 
 "Even","Kaoru", "Namika", "Eira", "Sorin", "Arcane", "Misun", 
@@ -12,10 +12,12 @@ var adjective = ["Raisel", "Iô", "Aylin",
 "Xylia", "Mute", "Môr", "Quiet", "Raspy", 
 "Médée", "Shrill", "Silent", "Jona", 
 "Asdis", "Laleh", "Skadi", "Jord", 
-"Devi"] 
+"Devi","Elyxia","Tamaris","Neollia","Karma","Kynra","Amaya","Linessia","Octavia"
+,"Lyne","Merry","Phenial","Jill","Tetsu","Akira","Dante","Djim","Jake","Kero","Lavi"
+,"Jeriko","Nine","Zero"] 
 
 
-var object = ["Angegné", "Firefury", "Stoutstrike", "Mossstrike", 
+var surnames = ["Angegné", "Firefury", "Stoutstrike", "Mossstrike", 
 "Goresnow", "Lightshield", "Dragonflare", "Dragon",
  "Frostore", "Fourwhisk", "Farsinger", 
 "Fogwood", "Flameglow", "Pyreriver", "Abadras", 
@@ -24,6 +26,5 @@ var object = ["Angegné", "Firefury", "Stoutstrike", "Mossstrike",
 // var list;
 
 function generator() {
- document.getElementById("name").innerHTML = adjective[Math.floor(Math.random() * adjective.length)] + " " + object[Math.floor(Math.random() * object.length)];;;
+ document.getElementById("name").innerHTML = names[Math.floor(Math.random() * names.length)] + " " + surnames[Math.floor(Math.random() * surnames.length)];;;
 }
-
